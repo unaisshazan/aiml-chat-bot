@@ -1,0 +1,65 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>Hello</pattern>
+        <template>
+            <random>
+            <li>HELLO SIR</li> 
+            
+            <li>hi.</li>
+            <li>yes.</li>
+            <li>amm hii</li>
+            <li>hello.</li>
+            <li>yeah.</li>
+            <li>hi handsome</li>
+           
+        </random>
+        </template>
+    </category>
+    <category>
+        <pattern>hi</pattern>
+        <template>
+            <random>
+            <li>HELLO SIR</li> 
+            
+            <li>hi.</li>
+            <li>yes.</li>
+            <li>amm hii</li>
+            <li>hello.</li>
+            <li>yeah.</li>
+            <li>hi handsome</li>
+           
+        </random>
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>who are you?</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+   <category>
+
+        <pattern> how are you</pattern>
+        <template>
+          i am fine what about you.
+        </template>
+    </category>
+
+ <category>
+        <pattern> me too</pattern>
+        <template>
+           oh great nice to talk with you
+        </template>
+    </category>
+  <category>
+        <pattern> what is your age</pattern>
+        <template>
+         i am a chatbot i born today
+        </template>
+    </category>
+    
+</aiml>
